@@ -1,5 +1,15 @@
 {
     "name": "hex/example",
     "description": "example package",
-    "require": {}
-}
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
+    "require": {
+        "illuminate/collections": "^10.48"
+    },
+    "scripts": {
+	    "phpcs": "phpcs"
+    }
+}	
